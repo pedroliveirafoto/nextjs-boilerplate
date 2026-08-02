@@ -178,7 +178,7 @@ export default function Page() {
 
 
 
-          <div className="mt-16 grid gap-6 md:grid-cols-2">
+          <div className="mt-16 grid gap-8 md:grid-cols-3">
 
 
             {portfolioImages.map((image) => (
@@ -188,7 +188,6 @@ export default function Page() {
                 className="
                   group
                   relative
-                  h-[500px]
                   overflow-hidden
                 "
               >
@@ -196,9 +195,12 @@ export default function Page() {
                 <Image
                   src={`/${image}`}
                   alt="Fotografia de casamento"
-                  fill
+                  width={800}
+                  height={1200}
                   className="
-                    object-cover
+                    w-full
+                    h-auto
+                    object-contain
                     transition-transform
                     duration-700
                     group-hover:scale-105
