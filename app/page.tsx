@@ -46,21 +46,7 @@ export default function Page() {
 
             <Link
               href="/portfolio"
-              className="
-                mt-10
-                inline-block
-                border
-                border-white
-                px-8
-                py-3
-                text-sm
-                uppercase
-                tracking-[0.3em]
-                transition-all
-                duration-300
-                hover:bg-white
-                hover:text-black
-              "
+              className="mt-10 inline-block border border-white px-8 py-3 text-sm uppercase tracking-[0.3em] transition-all duration-300 hover:bg-white hover:text-black"
             >
               Ver Portfólio
             </Link>
@@ -130,21 +116,7 @@ export default function Page() {
 
             <Link
               href="/sobre"
-              className="
-                mt-10
-                inline-block
-                border
-                border-black
-                px-8
-                py-3
-                text-sm
-                uppercase
-                tracking-[0.3em]
-                transition-all
-                duration-300
-                hover:bg-black
-                hover:text-white
-              "
+              className="mt-10 inline-block border border-black px-8 py-3 text-sm uppercase tracking-[0.3em] transition-all duration-300 hover:bg-black hover:text-white"
             >
               Conhecer mais
             </Link>
@@ -164,7 +136,6 @@ export default function Page() {
 
         <div className="mx-auto max-w-7xl">
 
-
           <p className="mb-6 text-sm uppercase tracking-[0.3em] text-white/50">
             Portfólio
           </p>
@@ -177,19 +148,13 @@ export default function Page() {
           </h2>
 
 
-
           <div className="mt-16 grid gap-8 md:grid-cols-3">
-
 
             {portfolioImages.map((image) => (
 
               <div
                 key={image}
-                className="
-                  group
-                  relative
-                  overflow-hidden
-                "
+                className="group relative overflow-hidden"
               >
 
                 <Image
@@ -197,35 +162,72 @@ export default function Page() {
                   alt="Fotografia de casamento"
                   width={800}
                   height={1200}
-                  className="
-                    w-full
-                    h-auto
-                    object-contain
-                    transition-transform
-                    duration-700
-                    group-hover:scale-105
-                  "
+                  className="h-auto w-full object-contain transition-transform duration-700 group-hover:scale-105"
                 />
 
-
-                <div
-                  className="
-                    absolute
-                    inset-0
-                    bg-black/0
-                    transition-all
-                    duration-500
-                    group-hover:bg-black/20
-                  "
-                />
+                <div className="absolute inset-0 bg-black/0 transition-all duration-500 group-hover:bg-black/20" />
 
               </div>
 
             ))}
 
-
           </div>
 
+        </div>
+
+      </section>
+
+
+
+
+      {/* FILMES */}
+      <section className="relative overflow-hidden bg-black px-6 py-24 text-white md:px-16 lg:px-32">
+
+        <div className="mx-auto max-w-7xl">
+
+          <div className="relative h-[600px] overflow-hidden">
+
+            <Image
+              src="/film.jpg"
+              alt="Filme de casamento"
+              fill
+              className="object-cover transition-transform duration-700 hover:scale-105"
+            />
+
+
+            <div className="absolute inset-0 bg-black/50" />
+
+
+            <div className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center">
+
+              <p className="mb-6 text-sm uppercase tracking-[0.3em] text-white/70">
+                Filmes
+              </p>
+
+
+              <h2 className="text-4xl font-light md:text-6xl">
+                Histórias que ganham vida.
+              </h2>
+
+
+              <p className="mt-6 max-w-xl text-lg text-white/80">
+                Cada casamento é uma história única. Através do vídeo,
+                transformo momentos, emoções e pequenos detalhes em
+                memórias que podem ser revividas para sempre.
+              </p>
+
+
+              <Link
+                href="/filmes"
+                className="mt-10 border border-white px-8 py-3 text-sm uppercase tracking-[0.3em] transition-all duration-300 hover:bg-white hover:text-black"
+              >
+                Ver filmes
+              </Link>
+
+
+            </div>
+
+          </div>
 
         </div>
 
