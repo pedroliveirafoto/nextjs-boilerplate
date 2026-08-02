@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Page() {
   const portfolioImages = [
     'Portfolio1.jpg',
-    'portfolio2.jpg',
+    'Portfolio2.jpg',
     'Portfolio3.jpg',
     'Portfolio4.jpg',
     'Portfolio5.jpg',
