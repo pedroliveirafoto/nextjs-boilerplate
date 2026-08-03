@@ -19,7 +19,8 @@ export default function Contacto() {
 
         <p className="mx-auto mt-8 max-w-2xl text-lg text-white/80">
           Se gostam do meu trabalho, será um prazer conhecer a vossa história e
-          criar fotografias e filmes que vos acompanhem para sempre.
+          criar fotografias e filmes que vos permitam reviver cada emoção do
+          vosso dia especial.
         </p>
 
       </section>
@@ -34,10 +35,10 @@ export default function Contacto() {
           </h2>
 
           <p className="mt-8 text-lg leading-relaxed text-neutral-600">
-            Respondo normalmente no próprio dia.
+            Responderei com todo o gosto o mais rapidamente possível.
           </p>
 
-          <div className="mt-16 space-y-8">
+          <div className="mt-16 space-y-10">
 
             <div>
               <p className="text-sm uppercase tracking-[0.3em] text-neutral-500">
@@ -45,10 +46,10 @@ export default function Contacto() {
               </p>
 
               <a
-                href="mailto:coloca-o-teu-email@exemplo.com"
-                className="mt-2 inline-block text-2xl hover:underline"
+                href="mailto:pedro.oliveira.fotografia.video@gmail.com"
+                className="mt-2 inline-block text-xl md:text-2xl hover:underline"
               >
-                coloca-o-teu-email@exemplo.com
+                pedro.oliveira.fotografia.video@gmail.com
               </a>
             </div>
 
@@ -58,12 +59,10 @@ export default function Contacto() {
               </p>
 
               <a
-                href="https://instagram.com/o_teu_instagram"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-2 inline-block text-2xl hover:underline"
+                href="#"
+                className="mt-2 inline-block text-xl md:text-2xl hover:underline"
               >
-                @o_teu_instagram
+                @pedrooliveira.fotografia
               </a>
             </div>
 
