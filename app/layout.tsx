@@ -16,42 +16,37 @@ export const metadata: Metadata = {
   title: "Pedro Oliveira | Fotografia & Filmes de Casamento",
   description:
     "Fotografia e filmes de casamento em Portugal e França. Histórias reais, emoções eternas e momentos únicos contados de forma natural e cinematográfica.",
+
+  alternates: {
+    languages: {
+      "pt-PT": "/",
+      "fr-FR": "/fr",
+    },
+  },
+
   keywords: [
     "fotógrafo de casamento",
+    "photographe mariage",
     "fotografia casamento Portugal",
-    "fotógrafo casamento Porto",
+    "photographe mariage France",
     "filmes de casamento",
-    "videógrafo casamento",
+    "film mariage",
     "Pedro Oliveira Fotografia",
   ],
+
   authors: [
     {
       name: "Pedro Oliveira",
     },
   ],
+
   creator: "Pedro Oliveira",
+
   openGraph: {
     title: "Pedro Oliveira | Fotografia & Filmes de Casamento",
     description:
-      "Fotografia e filmes de casamento com uma abordagem natural, elegante e cinematográfica.",
+      "Fotografia e filmes de casamento em Portugal e França com uma abordagem natural, elegante e cinematográfica.",
     type: "website",
     locale: "pt_PT",
   },
 };
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html
-      lang="pt"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">
-        {children}
-      </body>
-    </html>
-  );
-}
