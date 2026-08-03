@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { Mail, Instagram, MessageCircle } from "lucide-react";
 
 export default function Contacto() {
   return (
@@ -38,51 +39,43 @@ export default function Contacto() {
             Responderei com todo o gosto o mais rapidamente possível.
           </p>
 
-          <div className="mt-16 space-y-10">
+          <div className="mt-16 flex flex-wrap justify-center gap-12 text-lg uppercase tracking-[0.3em] text-neutral-700">
 
-            {/* EMAIL */}
-            <div>
-              <p className="text-sm uppercase tracking-[0.3em] text-neutral-500">
-                Email
-              </p>
+  <a
+    href="mailto:pedro.oliveira.fotografia.video@gmail.com"
+    className="transition duration-300 hover:opacity-50"
+  >
+    Email
+  </a>
 
-              <a
-                href="mailto:pedro.oliveira.fotografia.video@gmail.com"
-                className="mt-2 inline-block text-lg md:text-2xl transition hover:underline"
-              >
-                pedro.oliveira.fotografia.video@gmail.com
-              </a>
-            </div>
+  <a
+    href="https://wa.me/351916814516?text=Olá%20Pedro!%20Vi%20o%20teu%20website%20e%20gostava%20de%20pedir%20informações%20sobre%20fotografia%20e%20vídeo%20de%20casamento."
+    target="_blank"
+    rel="noopener noreferrer"
+    className="transition duration-300 hover:opacity-50"
+  >
+    WhatsApp
+  </a>
 
-            {/* INSTAGRAM */}
-            <div>
-              <p className="text-sm uppercase tracking-[0.3em] text-neutral-500">
-                Instagram
-              </p>
+  <a
+    href="https://www.instagram.com/pedroliveirafotografiaevideo"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="transition duration-300 hover:opacity-50"
+  >
+    Instagram
+  </a>
 
-              <a
-                href="https://instagram.com/pedroliveirafotografiaevideo"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-2 inline-block text-lg md:text-2xl transition hover:underline"
-              >
-                @pedroliveirafotografiaevideo
-              </a>
-            </div>
+</div>
 
-          </div>
+<div className="mt-20 text-center">
 
-          <Link
-            href="/portfolio"
-            className="mt-16 inline-block border border-black px-8 py-3 text-sm uppercase tracking-[0.3em] transition-all duration-300 hover:bg-black hover:text-white"
-          >
-            Ver Portfólio
-          </Link>
+  <p className="text-sm uppercase tracking-[0.3em] text-neutral-500">
+    Disponível
+  </p>
 
-        </div>
+  <p className="mt-4 text-lg font-light text-neutral-700">
+    Portugal 🇵🇹 · França 🇫🇷
+  </p>
 
-      </section>
-
-    </main>
-  )
-}
+</div>
