@@ -270,7 +270,7 @@ export default function Page() {
   </a>
 
   <a
-    href="mailto:Pedro.oliveira.fotografia.video@gmail.com"
+    href="mailto:pedro.oliveira.fotografia.video@gmail.com"
     className="transition hover:text-black"
   >
     Email
