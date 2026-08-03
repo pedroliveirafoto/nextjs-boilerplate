@@ -260,29 +260,20 @@ export default function Page() {
 
           <div className="mt-12 flex justify-center gap-8 text-sm uppercase tracking-widest text-neutral-500">
 
-            <a
-              href="#"
-              className="transition hover:text-black"
-            >
-              Instagram
-            </a>
+  <a
+    href="https://www.instagram.com/pedroliveirafotografiaevideo"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="transition hover:text-black"
+  >
+    Instagram
+  </a>
 
+  <a
+    href="mailto:Pedro.oliveira.fotografia.video@gmail.com"
+    className="transition hover:text-black"
+  >
+    Email
+  </a>
 
-            <a
-              href="mailto:contacto@pedrooliveira.com"
-              className="transition hover:text-black"
-            >
-              Email
-            </a>
-
-          </div>
-
-
-        </div>
-
-      </section>
-
-
-    </main>
-  )
-}
+</div>
