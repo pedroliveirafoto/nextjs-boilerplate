@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import { Mail, Instagram, MessageCircle } from "lucide-react";
 
 export default function Contacto() {
   return (
