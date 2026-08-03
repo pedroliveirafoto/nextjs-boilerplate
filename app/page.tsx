@@ -18,14 +18,14 @@ export default function Page() {
       <section className="relative h-screen w-full overflow-hidden">
 
         <Image
-          src="/hero.jpg"
-          alt="Fotografia de casamento"
-          fill
-          priority
-          className="object-cover"
-        />
+  src="/hero.jpg"
+  alt="Fotografia de casamento"
+  fill
+  priority
+  className="object-cover opacity-80"
+/>
 
-        <div className="absolute inset-0 bg-black/40" />
+<div className="absolute inset-0 bg-black/30" />
 
         <div className="absolute inset-0 flex flex-col items-center justify-end px-6 pb-32 text-center text-white">
 
