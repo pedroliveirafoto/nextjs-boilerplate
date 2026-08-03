@@ -15,7 +15,28 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Pedro Oliveira | Fotografia & Filmes de Casamento",
   description:
-    "Fotografia e filmes de casamento com uma abordagem natural e cinematográfica.",
+    "Fotografia e filmes de casamento em Portugal e França. Histórias reais, emoções eternas e momentos únicos contados de forma natural e cinematográfica.",
+  keywords: [
+    "fotógrafo de casamento",
+    "fotografia casamento Portugal",
+    "fotógrafo casamento Porto",
+    "filmes de casamento",
+    "videógrafo casamento",
+    "Pedro Oliveira Fotografia",
+  ],
+  authors: [
+    {
+      name: "Pedro Oliveira",
+    },
+  ],
+  creator: "Pedro Oliveira",
+  openGraph: {
+    title: "Pedro Oliveira | Fotografia & Filmes de Casamento",
+    description:
+      "Fotografia e filmes de casamento com uma abordagem natural, elegante e cinematográfica.",
+    type: "website",
+    locale: "pt_PT",
+  },
 };
 
 export default function RootLayout({
@@ -28,18 +49,8 @@ export default function RootLayout({
       lang="pt"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-screen flex flex-col bg-white text-black">
-        <main className="flex-1">
-          {children}
-        </main>
-
-        <footer className="border-t border-neutral-200 py-8">
-          <div className="mx-auto max-w-7xl px-6 text-center">
-            <p className="text-sm text-neutral-500">
-              © {new Date().getFullYear()} Pedro Oliveira. Todos os direitos reservados.
-            </p>
-          </div>
-        </footer>
+      <body className="min-h-full flex flex-col">
+        {children}
       </body>
     </html>
   );
