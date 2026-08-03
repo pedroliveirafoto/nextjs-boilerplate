@@ -12,7 +12,7 @@ const navItems = [
 export default function Navbar() {
   return (
     <header className="absolute top-0 left-0 z-50 w-full">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-8 py-8">
+      <div className="mx-auto flex max-w-7xl items-center justify-end px-8 py-8">
 
         {/* LOGO */}
 
