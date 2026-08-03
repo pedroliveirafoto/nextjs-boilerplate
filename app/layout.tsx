@@ -61,29 +61,12 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        {children}
-      </body>
-    </html>
-  );
-}
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html
-      lang="pt"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">
 
         <main className="flex-1">
           {children}
         </main>
 
         <footer className="border-t border-neutral-200 py-10">
-
           <div className="mx-auto max-w-7xl px-6 text-center">
 
             <p className="text-sm uppercase tracking-[0.25em] text-neutral-400">
@@ -99,7 +82,6 @@ export default function RootLayout({
             </p>
 
           </div>
-
         </footer>
 
       </body>
