@@ -40,6 +40,7 @@ export default function Contacto() {
 
           <div className="mt-16 space-y-10">
 
+            {/* EMAIL */}
             <div>
               <p className="text-sm uppercase tracking-[0.3em] text-neutral-500">
                 Email
@@ -47,22 +48,25 @@ export default function Contacto() {
 
               <a
                 href="mailto:pedro.oliveira.fotografia.video@gmail.com"
-                className="mt-2 inline-block text-xl md:text-2xl hover:underline"
+                className="mt-2 inline-block text-lg md:text-2xl transition hover:underline"
               >
                 pedro.oliveira.fotografia.video@gmail.com
               </a>
             </div>
 
+            {/* INSTAGRAM */}
             <div>
               <p className="text-sm uppercase tracking-[0.3em] text-neutral-500">
                 Instagram
               </p>
 
               <a
-                href="#"
-                className="mt-2 inline-block text-xl md:text-2xl hover:underline"
+                href="https://instagram.com/pedroliveirafotografiaevideo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 inline-block text-lg md:text-2xl transition hover:underline"
               >
-                @pedrooliveira.fotografia
+                @pedroliveirafotografiaevideo
               </a>
             </div>
 
