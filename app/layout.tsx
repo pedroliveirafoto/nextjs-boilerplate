@@ -69,14 +69,6 @@ export default function RootLayout({
         <footer className="border-t border-neutral-200 py-10">
           <div className="mx-auto max-w-7xl px-6 text-center">
 
-            <p className="text-sm uppercase tracking-[0.25em] text-neutral-400">
-              Pedro Oliveira
-            </p>
-
-            <p className="mt-2 text-sm text-neutral-500">
-              Fotografia & Filmes de Casamento
-            </p>
-
             <p className="mt-6 text-xs text-neutral-400">
               © 2026 Pedro Oliveira. Todos os direitos reservados.
             </p>
