@@ -75,13 +75,20 @@ export default function Page() {
 
           <div className="overflow-hidden animate-fade-left">
 
-            <Image
-              src="/about.jpg"
-              alt="Pedro Oliveira a fotografar um casamento"
-              width={800}
-              height={1000}
-              className="h-[600px] w-full object-cover"
-            />
+          <Image
+  src="/about.jpg"
+  alt="Pedro Oliveira"
+  width={650}
+  height={850}
+  className="
+    relative
+    lg:-ml-12
+    h-[720px]
+    w-[520px]
+    object-cover
+    shadow-2xl
+  "
+/>
 
           </div>
 
