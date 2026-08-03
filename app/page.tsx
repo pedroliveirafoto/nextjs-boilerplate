@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Navbar from './components/nav'
 
 export default function Page() {
   const portfolioImages = [
@@ -13,6 +14,8 @@ export default function Page() {
 
   return (
     <main>
+
+    <Navbar />
 
       {/* HERO */}
       <section className="relative h-screen w-full overflow-hidden">
