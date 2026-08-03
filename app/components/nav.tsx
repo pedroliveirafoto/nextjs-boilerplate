@@ -16,13 +16,6 @@ export default function Navbar() {
 
         {/* LOGO */}
 
-        <Link
-          href="/"
-          className="text-white text-2xl font-light tracking-[0.25em]"
-        >
-          Pedro Oliveira
-        </Link>
-
         {/* MENU */}
 
         <nav className="flex items-center gap-10">
