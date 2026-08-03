@@ -84,7 +84,7 @@ export default function Page() {
     relative
     lg:-ml-12
     h-[720px]
-    w-[520px]
+    w-[600px]
     object-cover
     shadow-2xl
   "
