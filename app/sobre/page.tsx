@@ -5,21 +5,22 @@ export default function SobrePage() {
   return (
     <main>
 
-      <section className="bg-white px-6 py-24 md:px-16 lg:px-32">
+    <section className="bg-white px-6 py-32 md:px-16 lg:px-32">
 
-        <div className="mx-auto grid max-w-7xl items-center gap-16 md:grid-cols-2">
+  <div className="mx-auto flex max-w-7xl flex-col items-center gap-20 lg:flex-row lg:items-center">
 
-          <div className="overflow-hidden">
+    {/* FOTO */}
+    <div className="flex justify-center lg:w-2/5 animate-fade-left">
 
-            <Image
-              src="/about.jpg"
-              alt="Pedro Oliveira"
-              width={800}
-              height={1000}
-              className="w-full h-auto object-cover"
-            />
+      <Image
+        src="/about.jpg"
+        alt="Pedro Oliveira"
+        width={500}
+        height={750}
+        className="h-[700px] w-auto object-cover shadow-2xl"
+      />
 
-          </div>
+    </div>
 
           <div>
 
