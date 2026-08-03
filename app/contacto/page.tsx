@@ -1,4 +1,3 @@
-import Link from 'next/link'
 
 export default function Contacto() {
   return (
@@ -78,3 +77,10 @@ export default function Contacto() {
   </p>
 
 </div>
+        </div>
+
+      </section>
+
+    </main>
+  )
+}
