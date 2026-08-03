@@ -37,14 +37,7 @@ export default function Contacto() {
             Responderei com todo o gosto o mais rapidamente possível.
           </p>
 
-          <div className="mt-16 flex flex-wrap justify-center gap-12 text-lg uppercase tracking-[0.3em] text-neutral-700">
-
-  <a
-    href="mailto:pedro.oliveira.fotografia.video@gmail.com"
-    className="transition duration-300 hover:opacity-50"
-  >
-    Email
-  </a>
+        <div className="mt-16 flex flex-wrap items-center justify-center gap-6 text-xl font-light text-neutral-700">
 
   <a
     href="https://wa.me/351916814516?text=Olá%20Pedro!%20Vi%20o%20teu%20website%20e%20gostava%20de%20pedir%20informações%20sobre%20fotografia%20e%20vídeo%20de%20casamento."
@@ -55,6 +48,17 @@ export default function Contacto() {
     WhatsApp
   </a>
 
+  <span className="text-neutral-300">|</span>
+
+  <a
+    href="mailto:pedro.oliveira.fotografia.video@gmail.com"
+    className="transition duration-300 hover:opacity-50"
+  >
+    Email
+  </a>
+
+  <span className="text-neutral-300">|</span>
+
   <a
     href="https://www.instagram.com/pedroliveirafotografiaevideo"
     target="_blank"
@@ -63,18 +67,6 @@ export default function Contacto() {
   >
     Instagram
   </a>
-
-</div>
-
-<div className="mt-20 text-center">
-
-  <p className="text-sm uppercase tracking-[0.3em] text-neutral-500">
-    Disponível
-  </p>
-
-  <p className="mt-4 text-lg font-light text-neutral-700">
-    Portugal 🇵🇹 · França 🇫🇷
-  </p>
 
 </div>
         </div>
