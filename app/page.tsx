@@ -70,24 +70,16 @@ export default function Page() {
 
       {/* SOBRE MIM */}
       <section className="bg-white px-6 py-24 md:px-16 lg:px-32">
-
-        <div className="mx-auto grid max-w-7xl items-center gap-16 md:grid-cols-2">
+<div className="mx-auto grid max-w-7xl items-center gap-20 lg:grid-cols-[1.2fr_1fr]">
 
           <div className="overflow-hidden animate-fade-left">
 
-          <Image
+     <Image
   src="/about.jpg"
   alt="Pedro Oliveira"
-  width={650}
-  height={850}
-  className="
-    relative
-    lg:-ml-12
-    h-[720px]
-    w-[600px]
-    object-contain
-    shadow-2xl
-  "
+  width={900}
+  height={900}
+  className="h-[700px] w-full object-cover shadow-2xl"
 />
 
           </div>
