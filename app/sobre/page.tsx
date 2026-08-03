@@ -79,7 +79,6 @@ export default function SobrePage() {
 
             <li>• Uma presença discreta durante todo o dia.</li>
 
-            <li>• Fotografias naturais e sem poses forçadas.</li>
 
             <li>• Atenção aos pequenos detalhes e às emoções genuínas.</li>
 
