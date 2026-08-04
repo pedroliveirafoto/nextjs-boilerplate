@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const images = [
   "/Session1-1.jpg",
-  "/Session1-2.jpg",
-  "/Session1-3.jpg",
   "/Session1-4.jpg",
+  "/Session1-3.jpg",
+  "/Session1-2.jpg",
   "/Session1-5.jpg",
   "/Session1-6.jpg",
 ];
