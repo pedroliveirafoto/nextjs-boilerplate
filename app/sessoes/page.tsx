@@ -73,7 +73,7 @@ export default function Sessoes() {
 
               <div>
 
-                <p className="text-sm uppercase tracking-[0.3em] text-neutral-500">
+                <p className="text-sm uppercase tracking-[0.3em] text-neutral-700">
                   {session.title}
                 </p>
 
@@ -81,7 +81,7 @@ export default function Sessoes() {
                   Sessão de Casal
                 </h2>
 
-                <p className="mt-8 text-lg leading-9 text-neutral-600">
+                <p className="mt-8 text-lg leading-9 text-neutral-700">
                   Um momento pensado para vocês.
                   Sem pressas, sem poses forçadas.
                   Apenas a vossa ligação, registada de forma autêntica e elegante.
