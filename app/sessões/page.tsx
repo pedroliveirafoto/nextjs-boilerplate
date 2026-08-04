@@ -17,11 +17,7 @@ const sessions = [
     title: "Sessão 03",
     href: "/sessoes/3",
   },
-  {
-    image: "/Session4.jpg",
-    title: "Sessão 04",
-    href: "/sessoes/4",
-  },
+ 
 ];
 
 export default function Sessoes() {
