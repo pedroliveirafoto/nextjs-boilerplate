@@ -257,38 +257,7 @@ export default function Page() {
           </Link>
 
 
-          <div className="mt-16 flex flex-wrap items-center justify-center gap-6 text-lg font-light text-neutral-700">
-
-  <a
-    href="https://wa.me/351916814516?text=Olá%20Pedro!%20Vi%20o%20teu%20website%20e%20gostava%20de%20pedir%20informações%20sobre%20fotografia%20e%20vídeo%20de%20casamento."
-    target="_blank"
-    rel="noopener noreferrer"
-    className="transition duration-300 hover:opacity-50"
-  >
-    WhatsApp
-  </a>
-
-  <div className="h-5 w-px bg-neutral-300" />
-
-  <a
-    href="mailto:pedro.oliveira.fotografia.video@gmail.com"
-    className="transition duration-300 hover:opacity-50"
-  >
-    Email
-  </a>
-
-  <div className="h-5 w-px bg-neutral-300" />
-
-  <a
-    href="https://www.instagram.com/pedroliveirafotografiaevideo"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="transition duration-300 hover:opacity-50"
-  >
-    Instagram
-  </a>
-
-</div>
+         
 
 </div>
 
