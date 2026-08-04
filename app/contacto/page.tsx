@@ -33,7 +33,7 @@ export default function Contacto() {
             Entrem em contacto
           </h2>
 
-          <p className="mt-8 text-lg leading-relaxed text-neutral-600">
+          <p className="mt-8 text-lg leading-relaxed text-neutral-700">
             Responderei com todo o gosto o mais rapidamente possível.
           </p>
 
