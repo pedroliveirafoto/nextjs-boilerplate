@@ -87,7 +87,7 @@ export default function Page() {
 
           <div className="animate-fade-right">
 
-            <p className="mb-6 text-sm uppercase tracking-[0.3em] text-neutral-500">
+            <p className="mb-6 text-sm uppercase tracking-[0.3em] text-neutral-700">
               A minha abordagem
             </p>
 
@@ -229,7 +229,7 @@ export default function Page() {
 
         <div className="mx-auto max-w-4xl">
 
-          <p className="mb-6 text-sm uppercase tracking-[0.3em] text-neutral-500">
+          <p className="mb-6 text-sm uppercase tracking-[0.3em] text-neutral-700">
             Contacto
           </p>
 
