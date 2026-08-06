@@ -27,10 +27,30 @@ export default function FilmesPage() {
             Reviver cada emoção.
           </h1>
 
-          <p className="mt-8 max-w-2xl text-lg leading-8 text-white/80">
-            Mais do que um vídeo, um filme que vos permite voltar a sentir
-            cada sorriso, cada lágrima e cada momento vivido no vosso dia.
-          </p>
+        <p className="mt-8 max-w-2xl text-lg leading-8 text-white/80">
+  Mais do que um vídeo, um filme que vos permite voltar a sentir
+  cada sorriso, cada lágrima e cada momento vivido no vosso dia.
+</p>
+
+<div className="mt-12 flex flex-col items-center gap-4">
+
+  <Link
+    href="/contacto"
+    className="border border-white px-8 py-3 text-sm uppercase tracking-[0.3em] transition-all duration-300 hover:bg-white hover:text-black"
+  >
+    Pedir orçamento
+  </Link>
+
+  <a
+    href="https://www.youtube.com/@TEUCANAL"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="border border-white px-8 py-3 text-sm uppercase tracking-[0.3em] transition-all duration-300 hover:bg-white hover:text-black"
+  >
+    Ver mais filmes no YouTube
+  </a>
+
+</div>
 
         </div>
 
@@ -55,13 +75,6 @@ export default function FilmesPage() {
             personalidade de cada casal e preservando a autenticidade de cada
             momento.
           </p>
-
-          <Link
-            href="/contacto"
-            className="mt-12 inline-block border border-black px-8 py-3 text-sm uppercase tracking-[0.3em] transition-all duration-300 hover:bg-black hover:text-white"
-          >
-            Pedir orçamento
-          </Link>
 
         </div>
 
