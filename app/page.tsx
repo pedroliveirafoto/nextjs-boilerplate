@@ -216,7 +216,8 @@ export default function Page() {
   </Link>
 
   <a
-    href="https://www.youtube.com/@TEUCANAL"
+    href="https://www.youtube.com/@pedroliveirafotografiaevideo
+"
     target="_blank"
     rel="noopener noreferrer"
     className="border border-white/40 px-8 py-3 text-sm uppercase tracking-[0.3em] text-white/80 transition-all duration-300 hover:border-white hover:bg-white hover:text-black"
