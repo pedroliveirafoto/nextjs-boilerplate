@@ -27,27 +27,20 @@ export default function FilmesPage() {
             Reviver cada emoção.
           </h1>
 
-        <p className="mt-8 max-w-2xl text-lg leading-8 text-white/80">
+       <p className="mt-8 max-w-2xl text-lg leading-8 text-white/80">
   Mais do que um vídeo, um filme que vos permite voltar a sentir
   cada sorriso, cada lágrima e cada momento vivido no vosso dia.
 </p>
 
-<div className="mt-12 flex flex-col items-center gap-4">
-
-  <Link
-    href="/contacto"
-    className="border border-white px-8 py-3 text-sm uppercase tracking-[0.3em] transition-all duration-300 hover:bg-white hover:text-black"
-  >
-    Pedir orçamento
-  </Link>
+<div className="mt-12">
 
   <a
     href="https://www.youtube.com/@TEUCANAL"
     target="_blank"
     rel="noopener noreferrer"
-    className="border border-white px-8 py-3 text-sm uppercase tracking-[0.3em] transition-all duration-300 hover:bg-white hover:text-black"
+    className="inline-block border border-white px-8 py-3 text-sm uppercase tracking-[0.3em] transition-all duration-300 hover:bg-white hover:text-black"
   >
-    Ver mais filmes no YouTube
+    Ver filmes
   </a>
 
 </div>
