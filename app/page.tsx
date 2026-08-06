@@ -206,12 +206,25 @@ export default function Page() {
                 memórias que podem ser revividas para sempre.
               </p>
 
-              <Link
-                href="/filmes"
-                className="mt-10 border border-white px-8 py-3 text-sm uppercase tracking-[0.3em] transition-all duration-300 hover:bg-white hover:text-black"
-              >
-                Ver filmes
-              </Link>
+             <div className="mt-10 flex flex-col items-center gap-4">
+
+  <Link
+    href="/filmes"
+    className="border border-white px-8 py-3 text-sm uppercase tracking-[0.3em] transition-all duration-300 hover:bg-white hover:text-black"
+  >
+    Ver filmes
+  </Link>
+
+  <a
+    href="https://www.youtube.com/@TEUCANAL"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="border border-white/40 px-8 py-3 text-sm uppercase tracking-[0.3em] text-white/80 transition-all duration-300 hover:border-white hover:bg-white hover:text-black"
+  >
+    YouTube
+  </a>
+
+</div>
 
             </div>
 
