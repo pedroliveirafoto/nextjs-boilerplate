@@ -35,7 +35,8 @@ export default function FilmesPage() {
 <div className="mt-12">
 
   <a
-    href="https://www.youtube.com/@TEUCANAL"
+    href="https://www.youtube.com/@pedroliveirafotografiaevideo
+"
     target="_blank"
     rel="noopener noreferrer"
     className="inline-block border border-white px-8 py-3 text-sm uppercase tracking-[0.3em] transition-all duration-300 hover:bg-white hover:text-black"
