@@ -5,73 +5,72 @@ export default function SobrePage() {
   return (
     <main>
 
-    <section className="bg-white px-6 py-32 md:px-16 lg:px-32">
+      {/* SOBRE MIM */}
+      <section className="bg-white px-6 py-32 md:px-16 lg:px-32">
 
-  <div className="mx-auto flex max-w-7xl flex-col items-center gap-20 lg:flex-row lg:items-center">
+        <div className="mx-auto flex max-w-7xl flex-col items-center gap-16 lg:flex-row lg:items-center">
 
-   {/* FOTOS */}
-<div className="relative mx-auto mb-20 h-[650px] w-full max-w-[430px] lg:mb-0 lg:w-2/5 animate-fade-left">
+          {/* FOTOS */}
+          <div className="relative h-[650px] w-full max-w-[500px] shrink-0 animate-fade-left">
 
-  <Image
-    src="/about.jpg"
-    alt="Pedro Oliveira"
-    width={600}
-    height={800}
-    className="
-      absolute
-      left-0
-      top-0
-      h-[550px]
-      w-[370px]
-      object-cover
-      shadow-2xl
-      md:h-[620px]
-      md:w-[430px]
-    "
-  />
+            {/* FOTO PRINCIPAL */}
+            <Image
+              src="/about.jpg"
+              alt="Pedro Oliveira"
+              width={500}
+              height={700}
+              className="
+                absolute
+                left-0
+                top-0
+                h-[560px]
+                w-[380px]
+                object-cover
+                shadow-2xl
+                md:h-[620px]
+                md:w-[430px]
+              "
+            />
 
-  <Image
-    src="/about2.jpg"
-    alt="Pedro Oliveira"
-    width={400}
-    height={500}
-    className="
-      absolute
-      bottom-0
-      right-0
-      h-[240px]
-      w-[180px]
-      object-cover
-      shadow-2xl
-      md:h-[280px]
-      md:w-[210px]
-    "
-  />
+            {/* FOTO 2 */}
+            <Image
+              src="/about2.jpg"
+              alt="Pedro Oliveira"
+              width={350}
+              height={450}
+              className="
+                absolute
+                bottom-0
+                right-0
+                h-[250px]
+                w-[190px]
+                object-cover
+                shadow-2xl
+              "
+            />
 
-  <Image
-    src="/about3.jpg"
-    alt="Pedro Oliveira"
-    width={400}
-    height={500}
-    className="
-      absolute
-      bottom-24
-      right-[-30px]
-      h-[190px]
-      w-[145px]
-      object-cover
-      shadow-2xl
-      md:right-[-80px]
-      md:h-[220px]
-      md:w-[170px]
-    "
-  />
+            {/* FOTO 3 */}
+            <Image
+              src="/about3.jpg"
+              alt="Pedro Oliveira"
+              width={300}
+              height={400}
+              className="
+                absolute
+                bottom-24
+                right-[-20px]
+                h-[190px]
+                w-[145px]
+                object-cover
+                shadow-2xl
+              "
+            />
 
-</div>
+          </div>
 
-    </div>
 
-          <div>
+          {/* TEXTO */}
+          <div className="animate-fade-right">
 
             <p className="mb-6 text-sm uppercase tracking-[0.3em] text-neutral-500">
               Sobre Mim
@@ -117,6 +116,8 @@ export default function SobrePage() {
 
       </section>
 
+
+      {/* O QUE PODEM ESPERAR */}
       <section className="bg-neutral-100 px-6 py-24 md:px-16 lg:px-32">
 
         <div className="mx-auto max-w-4xl">
@@ -127,10 +128,13 @@ export default function SobrePage() {
 
           <ul className="space-y-6 text-lg leading-8 text-neutral-700">
 
-            <li>• Uma presença discreta durante todo o dia.</li>
+            <li>
+              • Uma presença discreta durante todo o dia.
+            </li>
 
-
-            <li>• Atenção aos pequenos detalhes e às emoções genuínas.</li>
+            <li>
+              • Atenção aos pequenos detalhes e às emoções genuínas.
+            </li>
 
             <li>
               • Um acompanhamento próximo desde o primeiro contacto até à
