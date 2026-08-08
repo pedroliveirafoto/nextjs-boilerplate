@@ -10,63 +10,52 @@ export default function SobrePage() {
 
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-16 lg:flex-row lg:items-center">
 
-          {/* FOTOS */}
-          <div className="relative h-[650px] w-full max-w-[500px] shrink-0 animate-fade-left">
+        {/* FOTOS */}
+<div className="grid w-full max-w-[850px] grid-cols-1 items-center gap-6 md:grid-cols-3 animate-fade-left">
 
-            {/* FOTO PRINCIPAL */}
-            <Image
-              src="/about.jpg"
-              alt="Pedro Oliveira"
-              width={500}
-              height={700}
-              className="
-                absolute
-                left-0
-                top-0
-                h-[560px]
-                w-[380px]
-                object-cover
-                shadow-2xl
-                md:h-[620px]
-                md:w-[430px]
-              "
-            />
+  <Image
+    src="/about.jpg"
+    alt="Pedro Oliveira"
+    width={500}
+    height={750}
+    className="
+      h-[500px]
+      w-full
+      object-cover
+      shadow-2xl
+      md:h-[580px]
+    "
+  />
 
-            {/* FOTO 2 */}
-            <Image
-              src="/about2.jpg"
-              alt="Pedro Oliveira"
-              width={350}
-              height={450}
-              className="
-                absolute
-                bottom-0
-                right-0
-                h-[250px]
-                w-[190px]
-                object-cover
-                shadow-2xl
-              "
-            />
+  <Image
+    src="/about2.jpg"
+    alt="Pedro Oliveira"
+    width={500}
+    height={750}
+    className="
+      h-[500px]
+      w-full
+      object-cover
+      shadow-2xl
+      md:h-[650px]
+    "
+  />
 
-            {/* FOTO 3 */}
-            <Image
-              src="/about3.jpg"
-              alt="Pedro Oliveira"
-              width={300}
-              height={400}
-              className="
-                absolute
-                bottom-24
-                right-[-20px]
-                h-[190px]
-                w-[145px]
-                object-cover
-                shadow-2xl
-              "
-            />
+  <Image
+    src="/about3.jpg"
+    alt="Pedro Oliveira"
+    width={500}
+    height={750}
+    className="
+      h-[500px]
+      w-full
+      object-cover
+      shadow-2xl
+      md:h-[580px]
+    "
+  />
 
-          </div>
+</div>
 
 
           {/* TEXTO */}
