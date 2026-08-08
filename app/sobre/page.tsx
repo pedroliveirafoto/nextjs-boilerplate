@@ -9,16 +9,58 @@ export default function SobrePage() {
 
   <div className="mx-auto flex max-w-7xl flex-col items-center gap-20 lg:flex-row lg:items-center">
 
-    {/* FOTO */}
-    <div className="flex justify-center lg:w-2/5 animate-fade-left">
+   {/* FOTOS */}
+<div className="relative lg:w-2/5 animate-fade-left">
 
-      <Image
-        src="/about.jpg"
-        alt="Pedro Oliveira"
-        width={500}
-        height={750}
-        className="h-[700px] w-auto object-cover shadow-2xl"
-      />
+  {/* FOTO PRINCIPAL */}
+  <Image
+    src="/about.jpg"
+    alt="Pedro Oliveira"
+    width={600}
+    height={800}
+    className="
+      h-[620px]
+      w-[430px]
+      object-cover
+      shadow-2xl
+    "
+  />
+
+  {/* FOTO PEQUENA 1 */}
+  <Image
+    src="/about2.jpg"
+    alt="Pedro Oliveira"
+    width={400}
+    height={500}
+    className="
+      absolute
+      -bottom-10
+      -right-8
+      h-[280px]
+      w-[210px]
+      object-cover
+      shadow-2xl
+    "
+  />
+
+  {/* FOTO PEQUENA 2 */}
+  <Image
+    src="/about3.jpg"
+    alt="Pedro Oliveira"
+    width={400}
+    height={500}
+    className="
+      absolute
+      bottom-24
+      -right-32
+      h-[220px]
+      w-[170px]
+      object-cover
+      shadow-2xl
+    "
+  />
+
+</div>
 
     </div>
 
