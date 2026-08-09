@@ -41,68 +41,257 @@ export default function PortfolioPage() {
         </p>
 
 
-        {/* FOTOGRAFIAS HORIZONTAIS */}
+        {/* HORIZONTAL 1 */}
 
-        <div className="mt-20 space-y-8">
+        <div className="mt-20 group overflow-hidden">
 
-          {horizontalImages.map((image) => (
-
-            <div
-              key={image}
-              className="group overflow-hidden"
-            >
-
-              <Image
-                src={`/${image}`}
-                alt="Fotografia de casamento"
-                width={1600}
-                height={1000}
-                className="
-                  h-auto
-                  w-full
-                  object-cover
-                  transition
-                  duration-700
-                  group-hover:scale-[1.02]
-                "
-              />
-
-            </div>
-
-          ))}
+          <Image
+            src="/Portfolio7.jpg"
+            alt="Fotografia de casamento"
+            width={1600}
+            height={1000}
+            className="
+              h-auto
+              w-full
+              object-cover
+              transition
+              duration-700
+              group-hover:scale-[1.02]
+            "
+          />
 
         </div>
 
 
-        {/* FOTOGRAFIAS VERTICAIS */}
+        {/* VERTICAIS 1 + 2 */}
 
         <div className="mt-8 grid gap-8 md:grid-cols-2">
 
-          {verticalImages.map((image) => (
+          <div className="group overflow-hidden">
+            <Image
+              src="/Portfolio1.jpg"
+              alt="Fotografia de casamento"
+              width={800}
+              height={1200}
+              className="
+                h-auto
+                w-full
+                object-cover
+                transition
+                duration-700
+                group-hover:scale-105
+              "
+            />
+          </div>
 
-            <div
-              key={image}
-              className="group overflow-hidden"
-            >
+          <div className="group overflow-hidden">
+            <Image
+              src="/Portfolio4.jpg"
+              alt="Fotografia de casamento"
+              width={800}
+              height={1200}
+              className="
+                h-auto
+                w-full
+                object-cover
+                transition
+                duration-700
+                group-hover:scale-105
+              "
+            />
+          </div>
 
-              <Image
-                src={`/${image}`}
-                alt="Fotografia de casamento"
-                width={800}
-                height={1200}
-                className="
-                  h-auto
-                  w-full
-                  object-cover
-                  transition
-                  duration-700
-                  group-hover:scale-105
-                "
-              />
+        </div>
 
-            </div>
 
-          ))}
+        {/* HORIZONTAL 2 */}
+
+        <div className="mt-8 group overflow-hidden">
+
+          <Image
+            src="/Portfolio8.jpg"
+            alt="Fotografia de casamento"
+            width={1600}
+            height={1000}
+            className="
+              h-auto
+              w-full
+              object-cover
+              transition
+              duration-700
+              group-hover:scale-[1.02]
+            "
+          />
+
+        </div>
+
+
+        {/* VERTICAIS 3 + 4 */}
+
+        <div className="mt-8 grid gap-8 md:grid-cols-2">
+
+          <div className="group overflow-hidden">
+            <Image
+              src="/Portfolio2.jpg"
+              alt="Fotografia de casamento"
+              width={800}
+              height={1200}
+              className="
+                h-auto
+                w-full
+                object-cover
+                transition
+                duration-700
+                group-hover:scale-105
+              "
+            />
+          </div>
+
+          <div className="group overflow-hidden">
+            <Image
+              src="/Portfolio5.jpg"
+              alt="Fotografia de casamento"
+              width={800}
+              height={1200}
+              className="
+                h-auto
+                w-full
+                object-cover
+                transition
+                duration-700
+                group-hover:scale-105
+              "
+            />
+          </div>
+
+        </div>
+
+
+        {/* HORIZONTAL 3 */}
+
+        <div className="mt-8 group overflow-hidden">
+
+          <Image
+            src="/Portfolio9.jpg"
+            alt="Fotografia de casamento"
+            width={1600}
+            height={1000}
+            className="
+              h-auto
+              w-full
+              object-cover
+              transition
+              duration-700
+              group-hover:scale-[1.02]
+            "
+          />
+
+        </div>
+
+
+        {/* VERTICAIS 5 + 6 */}
+
+        <div className="mt-8 grid gap-8 md:grid-cols-2">
+
+          <div className="group overflow-hidden">
+            <Image
+              src="/Portfolio3.jpg"
+              alt="Fotografia de casamento"
+              width={800}
+              height={1200}
+              className="
+                h-auto
+                w-full
+                object-cover
+                transition
+                duration-700
+                group-hover:scale-105
+              "
+            />
+          </div>
+
+          <div className="group overflow-hidden">
+            <Image
+              src="/Portfolio6.jpg"
+              alt="Fotografia de casamento"
+              width={800}
+              height={1200}
+              className="
+                h-auto
+                w-full
+                object-cover
+                transition
+                duration-700
+                group-hover:scale-105
+              "
+            />
+          </div>
+
+        </div>
+
+
+        {/* HORIZONTAL 4 */}
+
+        <div className="mt-8 group overflow-hidden">
+
+          <Image
+            src="/Portfolio10.jpg"
+            alt="Fotografia de casamento"
+            width={1600}
+            height={1000}
+            className="
+              h-auto
+              w-full
+              object-cover
+              transition
+              duration-700
+              group-hover:scale-[1.02]
+            "
+          />
+
+        </div>
+
+
+        {/* HORIZONTAL 5 */}
+
+        <div className="mt-8 group overflow-hidden">
+
+          <Image
+            src="/Portfolio11.jpg"
+            alt="Fotografia de casamento"
+            width={1600}
+            height={1000}
+            className="
+              h-auto
+              w-full
+              object-cover
+              transition
+              duration-700
+              group-hover:scale-[1.02]
+            "
+          />
+
+        </div>
+
+
+        {/* HORIZONTAL 6 */}
+
+        <div className="mt-8 group overflow-hidden">
+
+          <Image
+            src="/Portfolio12.jpg"
+            alt="Fotografia de casamento"
+            width={1600}
+            height={1000}
+            className="
+              h-auto
+              w-full
+              object-cover
+              transition
+              duration-700
+              group-hover:scale-[1.02]
+            "
+          />
 
         </div>
 
