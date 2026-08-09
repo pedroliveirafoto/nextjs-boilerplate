@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function PortfolioPage() {
-  const portfolioImages = [
+  const verticalImages = [
     "Portfolio1.jpg",
     "Portfolio4.jpg",
     "Portfolio2.jpg",
@@ -10,8 +10,17 @@ export default function PortfolioPage() {
     "Portfolio6.jpg",
   ];
 
+  const horizontalImages = [
+    "Portfolio7.jpg",
+    "Portfolio8.jpg",
+    "Portfolio9.jpg",
+    "Portfolio10.jpg",
+    "Portfolio11.jpg",
+    "Portfolio12.jpg",
+  ];
+
   return (
-    <main className="bg-white px-6 py-24 md:px-16 lg:px-32">
+    <main className="bg-white px-6 py-32 md:px-16 lg:px-32">
 
       <div className="mx-auto max-w-7xl">
 
@@ -31,13 +40,49 @@ export default function PortfolioPage() {
           através da minha objetiva.
         </p>
 
-        <div className="mt-20 grid gap-8 md:grid-cols-3">
 
-          {portfolioImages.map((image) => (
+        {/* FOTOGRAFIAS HORIZONTAIS */}
+
+        <div className="mt-20 space-y-8">
+
+          {horizontalImages.map((image) => (
 
             <div
               key={image}
-              className="overflow-hidden group"
+              className="group overflow-hidden"
+            >
+
+              <Image
+                src={`/${image}`}
+                alt="Fotografia de casamento"
+                width={1600}
+                height={1000}
+                className="
+                  h-auto
+                  w-full
+                  object-cover
+                  transition
+                  duration-700
+                  group-hover:scale-[1.02]
+                "
+              />
+
+            </div>
+
+          ))}
+
+        </div>
+
+
+        {/* FOTOGRAFIAS VERTICAIS */}
+
+        <div className="mt-8 grid gap-8 md:grid-cols-2">
+
+          {verticalImages.map((image) => (
+
+            <div
+              key={image}
+              className="group overflow-hidden"
             >
 
               <Image
@@ -45,7 +90,14 @@ export default function PortfolioPage() {
                 alt="Fotografia de casamento"
                 width={800}
                 height={1200}
-                className="w-full h-auto object-cover transition duration-700 group-hover:scale-105"
+                className="
+                  h-auto
+                  w-full
+                  object-cover
+                  transition
+                  duration-700
+                  group-hover:scale-105
+                "
               />
 
             </div>
