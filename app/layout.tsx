@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Footer from "./components/footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -66,15 +67,7 @@ export default function RootLayout({
           {children}
         </main>
 
-        <footer className="border-t border-neutral-200 py-10">
-          <div className="mx-auto max-w-7xl px-6 text-center">
-
-            <p className="mt-6 text-xs text-neutral-400">
-              © 2026 Pedro Oliveira. Todos os direitos reservados.
-            </p>
-
-          </div>
-        </footer>
+        <Footer />
 
       </body>
     </html>
