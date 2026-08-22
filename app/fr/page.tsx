@@ -2,6 +2,43 @@ import Image from "next/image";
 import Link from "next/link";
 import NavbarFr from "../components/nav-fr";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Photographe de mariage en France | Pedro Oliveira",
+
+  description:
+    "Photographe et vidéaste de mariage en France et au Portugal. Une approche naturelle, élégante et cinématographique pour raconter votre mariage à travers des images authentiques et intemporelles.",
+
+  keywords: [
+    "photographe mariage France",
+    "photographe de mariage France",
+    "vidéaste mariage France",
+    "photographe mariage Portugal",
+    "photographe mariage portugais France",
+    "photographe mariage franco portugais",
+    "film mariage France",
+    "photographie mariage",
+    "Pedro Oliveira photographe",
+  ],
+
+  alternates: {
+    canonical: "/fr",
+    languages: {
+      "pt-PT": "/",
+      "fr-FR": "/fr",
+    },
+  },
+
+  openGraph: {
+    title: "Photographe de mariage en France | Pedro Oliveira",
+    description:
+      "Photographie et films de mariage en France et au Portugal. Des images naturelles, élégantes et intemporelles pour raconter votre histoire.",
+    locale: "fr_FR",
+    type: "website",
+  },
+};
+
 export default function Page() {
   const portfolioImages = [
     "Portfolio1.jpg",
