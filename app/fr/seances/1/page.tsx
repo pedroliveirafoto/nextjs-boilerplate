@@ -3,9 +3,9 @@ import NavbarFr from "../../../components/nav-fr";
 
 const images = [
   "/Session1-1.jpg",
-  "/Session1-2.jpg",
-  "/Session1-3.jpg",
   "/Session1-4.jpg",
+  "/Session1-3.jpg",
+  "/Session1-2.jpg",
   "/Session1-5.jpg",
   "/Session1-6.jpg",
 ];
